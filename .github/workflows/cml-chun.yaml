@@ -1,6 +1,6 @@
 name: your-workflow-name
 on: [push]
-
+permissions: write-all
 jobs:
   run:
     runs-on: ubuntu-latest
